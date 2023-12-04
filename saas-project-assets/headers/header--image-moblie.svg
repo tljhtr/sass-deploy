@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 360 523.5" style="enable-background:new 0 0 360 523.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000097474453238960513810000016228212526053625524_);}
+	.st1{fill:url(#SVGID_00000051360550312572493680000013215951722590933935_);}
+	.st2{fill:#E0E7EF;}
+</style>
+<image style="display:none;overflow:visible;" width="1020" height="533" xlink:href="98D6BCA2.jpg"  transform="matrix(1.0039 0 0 1.0039 0 0)">
+</image>
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="360,410.8 0,523.5 0,0 360,0 		"/>
+	</defs>
+	<clipPath id="SVGID_00000173860862847547238830000004312324344890517430_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000173860862847547238830000004312324344890517430_);">
+		
+			<linearGradient id="SVGID_00000113351774490687537570000007824211149489381790_" gradientUnits="userSpaceOnUse" x1="0" y1="250" x2="360.3213" y2="250">
+			<stop  offset="7.448835e-02" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5279" style="stop-color:#EBECEC"/>
+		</linearGradient>
+		<rect style="fill:url(#SVGID_00000113351774490687537570000007824211149489381790_);" width="360.3" height="500"/>
+		<polygon class="st2" points="312.2,-4.8 246.8,480.3 362.9,480.3 363.7,-4.8 		"/>
+	</g>
+</g>
+<image style="display:none;overflow:visible;" width="326" height="495" xlink:href="98D6BCA6.jpg"  transform="matrix(1.1043 0 0 1.1043 0 0)">
+</image>
+</svg>

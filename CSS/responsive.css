@@ -1,0 +1,430 @@
+@media screen and (max-width: 768px) {
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"]~.parts {
+    display: none;
+  }
+
+  [aria-expanded="true"]~.parts {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    right: 0;
+    top: 4.625rem;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 1.25rem rgba(52, 49, 75, 0.1);
+    padding: 0.625rem 0 18.75rem 0;
+  }
+
+  [aria-expanded="true"]~.parts .blue-button a {
+    text-align: center;
+  }
+
+  [aria-expanded="true"]~.navbar-toggler {
+    background-color: white;
+  }
+
+  .nav-bar.sticky {
+    background: white;
+    box-shadow: 0px 0px 1.25rem rgba(48, 63, 100, 0.2);
+  }
+
+  .container {
+    margin: 3.125rem 0;
+  }
+
+  .big-background-wrapper {
+    background-size: cover;
+    background-position: top -12.75rem right -15.813rem;
+  }
+
+  .billboard {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -3.125rem;
+  }
+
+  .parts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-group ul {
+    padding: 3.125rem 0 6.25rem 0;
+  }
+
+  .header-text-left {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 4.375rem;
+  }
+
+  .buttonandtext {
+    justify-content: center;
+  }
+
+  .logo-grid {
+    max-width: 33.125rem;
+    min-width: 20.625rem;
+    gap: 0.313rem;
+  }
+
+  .google {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .blue-arrow {
+    margin-left: 8%;
+  }
+
+  .red-dots {
+    margin-left: 14%;
+  }
+
+  .dubs {
+    margin-right: 20%;
+  }
+
+  .bene-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 5rem;
+  }
+
+  .gray-section {
+    background-color: #f9fafe;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.25rem;
+  }
+
+  h4 {
+    margin-top: 0.625rem;
+  }
+
+  .left-side-gray {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1.875rem;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .director {
+    display: flex;
+    flex-direction: column;
+    gap: 4.375rem;
+    align-items: center;
+  }
+
+  .director-info {
+    text-align: center;
+  }
+
+  .price-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .price-card-large {
+    min-width: 90%;
+    padding: 3.125rem 1.875rem 1.875rem 1.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-card-wrapper hr {
+    border-top: .063rem solid var(--nav-color);
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .small-card-group {
+    gap: 1.25rem;
+    justify-content: center;
+  }
+
+  .hire {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .hire-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 0px;
+    align-items: center;
+  }
+
+  h6 {
+    margin-top: 3.125rem;
+  }
+
+  .blue-big {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+  }
+
+  .rule {
+    max-width: 80%;
+  }
+
+  .wht-text-big {
+    margin-top: 3.125rem;
+  }
+
+  .blue-small {
+    margin-bottom: 2.5rem;
+  }
+
+  .privacy-btn {
+    align-items: initial;
+    margin-left: 2.5rem;
+  }
+
+  .footer-wht-company-extra {
+    padding-right: 1.438rem;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .big-background-wrapper {
+    background-size: cover;
+    background-position: top -9.25rem right -14.563;
+  }
+
+  .nav-group ul {
+    flex-direction: column;
+    padding-bottom: 1.875rem;
+  }
+
+  .logo-grid {
+    max-width: 330px;
+    gap: 0.625rem;
+  }
+
+  .google {
+    margin-left: -9%;
+    margin-right: -5%;
+  }
+
+  .blue-arrow {
+    margin-right: 0%;
+    margin-left: 4%;
+  }
+
+  .red-dots {
+    margin-right: -5%;
+    margin-left: 11%;
+  }
+
+  .paypal {
+    margin-left: -8%;
+    margin-right: 3%;
+  }
+
+  .dubs {
+    margin-right: 15%;
+  }
+
+  .tri {
+    margin-left: 24%;
+  }
+
+  .cal {
+    margin-right: -4%;
+  }
+
+  .bene-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .dot-chain-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 15.625;
+  }
+
+  .dot-chain-graphic {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dots {
+    margin-right: 1.25rem;
+  }
+
+  .hr-rule {
+    display: none;
+  }
+
+  .dot-ply-btn {
+    padding: 5rem 0;
+  }
+
+  .logo-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    max-width: 6.25rem;
+    margin: auto;
+  }
+
+  .small-card-group {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .hire-wrapper {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .blue-big {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .whit-text-italic {
+    max-width: 100%;
+  }
+
+  .rule {
+    max-width: 100%;
+  }
+
+  .enter-fields {
+    display: grid;
+    grid-template-areas:
+      "fn1"
+      "ln1"
+      "fn2"
+      "ln2"
+      "bdg"
+      "cnt"
+      "msg";
+  }
+
+  .footer-top-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-nav {
+    margin-bottom: 1.25rem;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+  }
+
+  .footer-wht-company-extra {
+    padding-right: 0px;
+  }
+
+  .footer-wht-company-extra>ul li:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-nav-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social {
+    margin: auto;
+  }
+
+  .footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.938rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .footer-icons img {
+    width: 2.188rem;
+    margin-left: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: var(--size-25);
+    line-height: 2rem;
+    margin-top: 2.063;
+  }
+
+  .header-text-left {
+    padding-bottom: 4.063;
+  }
+
+  .header-text-left p {
+    line-height: 1.1rem;
+  }
+
+  .logo-grid {
+    gap: 0px;
+  }
+
+  .google {
+    margin-left: -6%;
+    margin-right: -8%;
+  }
+
+  .blue-arrow {
+    margin-right: -13%;
+    margin-left: 4%;
+  }
+
+  .red-dots {
+    margin-right: -4%;
+  }
+
+  .blue-big p {
+    margin-bottom: 0;
+  }
+
+  h6 {
+    margin-top: 1.875rem;
+  }
+
+  .wht-text-big {
+    margin-top: 0;
+  }
+
+  .whit-text-italic {
+    max-width: 100%;
+  }
+
+  .form {
+    margin-top: 0;
+  }
+
+  .form .dot-text {
+    margin-top: 0;
+    font-size: var(--size-14);
+  }
+}
